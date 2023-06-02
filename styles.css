@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card {
+  height: 600px;
+  border-radius: 25px;
+}
+
+.card-body {
+  margin: 5%;
+}
+
+.card-title {
+  font-weight: 900;
+}
+
+.card-text {
+  font-size: 14px;
+  margin-bottom: 5%;
+  padding: 0px 8px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.card-img-top {
+  height: 12rem;
+  border-radius: 25px 25px 0% 0%;
+
+}
+
+.plan-div {
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.musicimg {
+  height: 50px;
+  width: 50px;
+}
+
+.changelink {
+  color: hsl(245, 75%, 52%);
+  margin-left: 25%;
+  font-weight: 500;
+
+
+}
+
+.plan-txt {
+  font-weight: 800;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: -10%;
+  padding-left: 10%;
+}
+
+.plan-price {
+  padding-left: 10%;
+
+}
+
+.btn {
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  border: none;
+}
+
+.btn:hover {
+  background: rgb(118, 108, 241)
+}
+
+.cancelbtn {
+  background-color: white;
+  border: none;
+
+}
