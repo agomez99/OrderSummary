@@ -28,7 +28,8 @@
 }
 
 .card-title {
-  font-weight: 900;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .card-text {
@@ -36,6 +37,7 @@
   margin-bottom: 5%;
   padding: 0px 8px;
   font-family: 'Red Hat Display', sans-serif;
+  color: rgb(117, 117, 117);
 }
 
 .card-img-top {
@@ -66,7 +68,7 @@
   color: hsl(245, 75%, 52%);
   margin-left: 25%;
   font-weight: 500;
-
+    font-size:smaller;
 
 }
 
@@ -77,10 +79,12 @@
   white-space: nowrap;
   margin-bottom: -10%;
   padding-left: 10%;
+  
 }
 
 .plan-price {
   padding-left: 10%;
+  color: rgb(117, 117, 117);
 
 }
 
@@ -97,5 +101,8 @@
 .cancelbtn {
   background-color: white;
   border: none;
+  color: rgb(117, 117, 117);
+  font-size: small;
+  height:50px;
 
 }
